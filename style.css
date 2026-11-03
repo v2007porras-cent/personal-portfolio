@@ -1,0 +1,25 @@
+.navtar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: hsla(0, 94%, 48%, 0.7);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    background: linear-gradient(135deg, #000000, #121314);
+}
+
+@media (max-width: 768px) {
+       .hero {
+        flex-direction: column; text-align: center;
+    }
+}
